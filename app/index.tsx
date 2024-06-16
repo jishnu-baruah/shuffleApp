@@ -6,7 +6,9 @@ import { View, Text, StyleSheet, TouchableOpacity,ScrollView } from 'react-nativ
 function swap(array, i, j) {
     const temp = array[i];
     array[i] = array[j];
-    array[j] = temp;
+    array[j] = temp;    
+
+    //shuffle cards
 }
 
 //Fisher-yates shuffle algorithm
